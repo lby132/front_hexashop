@@ -20,11 +20,11 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="left-image">
-                                <img src="assets/images/about-left-image.jpg" alt=""/>
+                                <img src={require("../../images/about-left-image.jpg")}/>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="right-content">
+                        <div className="right-content">
                                 <h4>About Us &amp; Our Skills</h4>
                                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
                                 <div className="quote">
@@ -68,10 +68,10 @@ const About = () => {
                                             </ul>
                                         </div>
                                     </div>
-                                    <img src="assets/images/team-member-01.jpg"/>
+                                    <img src={require("../../images/team-member-01.jpg")}/>
                                 </div>
                                 <div className="down-content">
-                                    <h4>Ragnar Lodbrok</h4>
+                                <h4>Ragnar Lodbrok</h4>
                                     <span>Product Caretaker</span>
                                 </div>
                             </div>
@@ -89,10 +89,10 @@ const About = () => {
                                             </ul>
                                         </div>
                                     </div>
-                                    <img src="assets/images/team-member-02.jpg"/>
+                                    <img src={require("../../images/team-member-02.jpg")}/>
                                 </div>
                                 <div className="down-content">
-                                    <h4>Ragnar Lodbrok</h4>
+                                <h4>Ragnar Lodbrok</h4>
                                     <span>Product Caretaker</span>
                                 </div>
                             </div>
@@ -110,10 +110,10 @@ const About = () => {
                                             </ul>
                                         </div>
                                     </div>
-                                    <img src="assets/images/team-member-03.jpg"/>
+                                    <img src={require("../../images/team-member-03.jpg")}/>
                                 </div>
                                 <div className="down-content">
-                                    <h4>Ragnar Lodbrok</h4>
+                                <h4>Ragnar Lodbrok</h4>
                                     <span>Product Caretaker</span>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ const About = () => {
                                 <h4>Synther Vaporware</h4>
                                 <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp
                                     incididunt ut labore, et dolore quis ipsum suspend.</p>
-                                <img src="assets/images/service-01.jpg" alt=""/>
+                                <img src={require("../../images/service-01.jpg")}/>
                             </div>
                         </div>
                         <div className="col-lg-4">
@@ -144,7 +144,7 @@ const About = () => {
                                 <h4>Locavore Squidward</h4>
                                 <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp
                                     incididunt ut labore, et dolore quis ipsum suspend.</p>
-                                <img src="assets/images/service-02.jpg" alt=""/>
+                                <img src={require("../../images/service-02.jpg")}/>
                             </div>
                         </div>
                         <div className="col-lg-4">
@@ -152,7 +152,7 @@ const About = () => {
                                 <h4>Health Gothfam</h4>
                                 <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp
                                     incididunt ut labore, et dolore quis ipsum suspend.</p>
-                                <img src="assets/images/service-03.jpg" alt=""/>
+                                <img src={require("../../images/service-03.jpg")}/>
                             </div>
                         </div>
                     </div>

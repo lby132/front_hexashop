@@ -17,13 +17,13 @@ import About from "./pages/about/About";
 function App() {
     return (
         <div className="App">
-                    <Head/>
-                    <Header/>
+            <Head/>
+            <Header/>
             <Routes>
                 <Route path="about" element={<About/>}/>
             </Routes>
-                    <MainPage/>
-                    <Footer/>
+            <MainPage/>
+            <Footer/>
         </div>
     );
 }

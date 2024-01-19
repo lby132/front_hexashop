@@ -1,5 +1,4 @@
 import '../components/css/templatemo-hexashop.css';
-import { useNavigate } from "react-router-dom";
 
 const MainPage = () => {
     return (

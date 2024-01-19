@@ -26,7 +26,6 @@ const Header = () => {
                                     <li className="submenu">
                                         <a href="#">Pages</a>
                                         <ul>
-                                            {/*<li><a href="about.html">About Us</a></li>*/}
                                             <li>
                                                 <Link to="about">About Us</Link>
                                             </li>
